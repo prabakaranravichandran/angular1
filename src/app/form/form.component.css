@@ -1,0 +1,28 @@
+#form{margin: 50px 0;}
+.form-outer h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0px 0 40px 0;
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 400;
+    color: #3399ff;
+}
+.form-outer {
+    position: relative;
+}
+.form-outer h2 span {
+    color: #f04943;
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+}
+.form-outer h2:before {
+    background-image: url(../../assets/img/srhIcons.png);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 12%;
+    background-position: -38px 0px;
+    height: 32px;
+    width: 25px;
+}

@@ -1,0 +1,16 @@
+footer {
+    background-color: #0a1c2e;
+    margin: 0px 0;
+    padding: 13px 0;
+}
+.footer-in p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #d1caca;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+.footer-in p a{color:#3399ff; font-size: 14px;
+    font-family: 'Roboto',sans-serif;text-decoration: none; font-weight: 300;}

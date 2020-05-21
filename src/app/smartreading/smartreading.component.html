@@ -1,0 +1,13 @@
+<section class="smartreadingzone">
+    <section class="container">
+        <div class="smart-heading-in">
+            <h2>Make your customers and guests indulge in unlimited reading
+                at <span>Smart Reading Zone</span></h2>
+                <p class="sub-heading">Popular places that can become Smart Reading Zones</p>
+                <div class="smart-subheading " *ngFor="let image of smartimages">
+                    <a routerLink="/home"><img src="{{image.img}}" alt=""></a>
+                    <p>{{image.txt}}</p>
+                </div>
+        </div>
+    </section>
+</section>

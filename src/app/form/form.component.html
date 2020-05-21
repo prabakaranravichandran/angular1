@@ -1,0 +1,55 @@
+<section id="form">
+    <section class="container">
+       <div class="form-outer">
+           <h2>Sign up to turn your location into a <span>Smart Reading Zone</span> instantly</h2>
+
+           <form [formGroup]="homeForm" class="frmctnl" (ngSubmit) = "onSubmit()">
+            <section class="form-group">
+                <input formControlName="Name"  name="Name" type="text" class="form-control" [ngClass]="{'is-invalid': submitted && getData.Name.errors}" placeholder="*Name"/>
+                <section *ngIf="submitted && getData.Name.errors" class="invalid-feedback">
+                    <span *ngIf="getData.Name.errors.required">Name is Required</span>
+                </section>
+            </section>
+
+            <section class="form-group"*ngIf="submitted && getData.Email.errors" class="invalid-feedback">
+             <input class="form-control" formControlName="Email"  type="text" name="Email" placeholder="*Email" [ngClass]="{'is-invalid': submitted && getData.Email.errors}">
+             <span *ngIf="getData.Email.errors.required">Email is Required</span>
+                <span *ngIf="getData.Email.errors.email">Email is invalid</span>
+            </section>
+            <section class="form-group">
+             <input type="text" class="form-control"formControlName="MobileNumber" name="Mobile" placeholder="*Mobile Number"  [ngClass]="{'is-invalid': submitted && getData.MobileNumber.errors}">
+             <section *ngIf="submitted && getData.MobileNumber.errors" class="invalid-feedback"><span *ngIf="getData.MobileNumber.errors.required">MobileNumber is Required</span>
+             <span *ngIf="getData.MobileNumber.errors.pattern">MobileNumber should be 10 numbers</span></section>
+            </section>
+            <section class="form-group">
+             <input type="text" class="form-control" name="Organization" placeholder="*Organization Name">
+            </section>
+            <section class="form-group">
+               <select class="form-control">
+                   <option *ngFor = "let typesOf of typesOf"> {{typesOf}}               
+                   </option>
+               </select>
+               </section>
+                <section class="form-group">
+               <select class="form-control">
+                   <option  *ngFor = "let countriesList of countriesList"> {{countriesList}}          
+                   </option>
+               </select>
+               </section>
+               <section class="form-group">
+                <input type="password" class="form-control" name="Password" placeholder="*Password"formControlName="Password"[ngClass]="{'is-invalid': submitted && getData.Password.errors}">
+                <section *ngIf="submitted && getData.Password.errors" class="invalid-feedback">
+                    <span *ngIf="getData.Password.errors.required">Password is Required</span>
+                    <span *ngIf="getData.Password.errors.minlength">Password should be minimum 8 characters</span>
+                </section>
+               </section>
+               <section class="form-group">
+                <input type="password" class="form-control" name="Retype password" placeholder="*Retype password">
+               </section>
+               <section class="form-group text-center">
+                <button class="btn btn-primary">Submit</button>
+            </section>
+          </form>
+       </div>
+    </section>
+ </section>

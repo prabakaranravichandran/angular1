@@ -1,0 +1,78 @@
+*{font-family:'robotoregular','robotomedium','robotobold','robotoblack', sans-serif, 'poppinsmedium', 'poppinsregular', 'poppinsbold','poppinsblack',  sans-serif;}
+@font-face {
+    font-family: 'robotoregular', sans-serif;
+    src: url('./assets/fonts/webfont/roboto-regular.woff2') format('woff2'),
+         url('./assets/fonts/webfont/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body,html{overflow-x: hidden;}
+
+@font-face {
+    font-family: 'robotomedium', sans-serif;
+    src: url('./assets/fonts/webfont/roboto-medium.woff2') format('woff2'),
+         url('./assets/fonts/webfont/roboto-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotobold', sans-serif;
+    src: url('./assets/fonts/webfont/roboto-bold.woff2') format('woff2'),
+         url('./assets/fonts/webfont/roboto-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotoblack', sans-serif;
+    src: url('./assets/fonts/webfont/roboto-black.woff2') format('woff2'),
+         url('./assets/fonts/webfont/roboto-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium', sans-serif;
+    src: url('./assets/fonts/webfont/poppins-medium.woff2') format('woff2'),
+         url('./assets/fonts/webfont/poppins-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'poppinsregular', sans-serif;
+    src: url('./assets/fonts/webfont/poppins-regular.woff2') format('woff2'),
+         url('./assets/fonts/webfont/poppins-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'poppinsbold', sans-serif;
+    src: url('./assets/fonts/webfont/poppins-bold.woff2') format('woff2'),
+         url('./assets/fonts/webfont/poppins-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'poppinsblack', sans-serif;
+    src: url('./assets/fonts/webfont/poppins-black.woff2') format('woff2'),
+         url('./assets/fonts/webfont/poppins-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

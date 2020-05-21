@@ -1,0 +1,14 @@
+<section class="highlight-zone">
+    <section class="container">
+        <div class="highlightzone-in">
+            <h1>Highlights of <span>Smart Reading Zones</span></h1>
+        </div>
+        <div class="highlightzone-list" *ngFor="let image of highlightzone">
+         <ul>
+             <li><img src="{{image.img}}" alt="">
+         <p>{{image.txt}}</p>
+        </li>
+        </ul>
+        </div>
+    </section>
+</section>

@@ -1,0 +1,50 @@
+.highlight-zone{background-image: url("../../assets/img/srz-bg.jpg");
+    background-repeat: no-repeat;
+   }
+.highlightzone-in{position: relative;}
+.highlightzone-in h1{text-align: center;
+    margin: 0;
+    padding: 40px 0 15px 0;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+color:#3399ff;}
+.highlightzone-in h1 span{color: #f04943;font-family: 'poppins',sans-serif;}
+.highlightzone-list{display: table;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 0 auto;}
+    .highlightzone-list p {
+        
+        text-align: left;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Roboto',sans-serif;
+        color: #fff;
+        padding: 0 15px;
+    margin: 0;
+    }
+    .highlightzone-list ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .highlightzone-list ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .highlightzone-in h1:before {
+        position: absolute;
+        top: 41px;
+        left: 25%;
+        height: 34px;
+        width: 44px;
+        background: url('../../assets/img/srhIcons.png');
+        background-position: -21px 0px;
+        content: '';
+    }
